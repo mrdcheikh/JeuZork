@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Jeu()
+comment0.text=\nCr\u00E9e\ le\ jeu\ et\ initialise\ la\ carte\ du\ jeu\ (i.e.\ les\ pi\u00E8ces).\n\n
+comment1.target=void\ creerPieces()
+comment1.text=\nCr\u00E9e\ toutes\ les\ pieces\ et\ relie\ leurs\ sorties\ les\ unes\ aux\ autres.\n\n
+comment2.target=void\ jouer()
+comment2.text=\nPour\ lancer\ le\ jeu.\ Boucle\ jusqu'a\ la\ fin\ du\ jeu.\n\n
+comment3.target=void\ afficherMsgBienvennue()
+comment3.text=\nAffiche\ le\ message\ d'accueil\ pour\ le\ joueur.\n\n
+comment4.params=commande
+comment4.target=boolean\ traiterCommande(Commande)
+comment4.text=\nEx\u00E9cute\ la\ commande\ sp\u00E9cifi\u00E9e.\ Si\ cette\ commande\ termine\ le\ jeu,\ la\ valeur\ntrue\ est\ renvoy\u00E9e,\ sinon\ false\ est\ renvoy\u00E9e\n\n@param\ \ commande\ \ La\ commande\ a\ ex\u00E9cuter\n@return\ \ \ \ \ \ \ \ \ \ \ true\ si\ cette\ commande\ termine\ le\ jeu\ ;\ false\ sinon.\n\n
+comment5.target=void\ afficherAide()
+comment5.text=\nAffichage\ de\ l'aide.\ Affiche\ notament\ la\ liste\ des\ commandes\ utilisables.\n\n
+comment6.params=commande
+comment6.target=void\ deplacerVersAutrePiece(Commande)
+comment6.text=\nTente\ d'aller\ dans\ la\ direction\ sp\u00E9cifi\u00E9e\ par\ la\ commande.\ Si\ la\ piece\ncourante\ poss\u00E8de\ une\ sortie\ dans\ cette\ direction,\ la\ piece\ correspondant\ a\ncette\ sortie\ devient\ la\ piece\ courante,\ dans\ les\ autres\ cas\ affiche\ un\nmessage\ d'erreur.\n\n@param\ \ commande\ \ Commande\ dont\ le\ second\ mot\ sp\u00E9cifie\ la\ direction\ a\ suivre\n\n
+numComments=7

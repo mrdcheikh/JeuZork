@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=description
+comment0.target=Piece(String)
+comment0.text=\nInitialise\ une\ piece\ d\u00E9crite\ par\ la\ chaine\ de\ caract\u00E8res\ sp\u00E9cifi\u00E9e.\nInitialement,\ cette\ piece\ ne\ poss\u00E8de\ aucune\ sortie.\ La\ description\ fournie\nest\ une\ courte\ phrase\ comme\ "la\ biblioth\u00E8que"\ ou\ "la\ salle\ de\ TP".\n\n@param\ \ description\ \ Description\ de\ la\ piece.\n\n
+comment1.params=nord\ est\ sud\ ouest
+comment1.target=void\ setSorties(Piece,\ Piece,\ Piece,\ Piece)
+comment1.text=\nD\u00E9finie\ les\ sorties\ de\ cette\ piece.\ A\ chaque\ direction\ correspond\ ou\ bien\nune\ piece\ ou\ bien\ la\ valeur\ null\ signifiant\ qu'il\ n'y\ a\ pas\ de\ sortie\ dans\ncette\ direction.\n\n@param\ \ nord\ \ \ La\ sortie\ nord\n@param\ \ est\ \ \ \ La\ sortie\ est\n@param\ \ sud\ \ \ \ La\ sortie\ sud\n@param\ \ ouest\ \ La\ sortie\ ouest\n\n
+comment2.target=String\ descriptionCourte()
+comment2.text=\nRenvoie\ la\ description\ de\ cette\ piece\ (i.e.\ la\ description\ sp\u00E9cifi\u00E9e\ lors\nde\ la\ cr\u00E9ation\ de\ cette\ instance).\n\n@return\ \ \ \ Description\ de\ cette\ piece\n\n
+comment3.target=String\ descriptionLongue()
+comment3.text=\nRenvoie\ une\ description\ de\ cette\ piece\ mentionant\ ses\ sorties\ et\ndirectement\ format\u00E9e\ pour\ affichage,\ de\ la\ forme\:\ <pre>\nVous\ etes\ dans\ la\ biblioth\u00E8que.\nSorties\:\ nord\ ouest</pre>\ Cette\ description\ utilise\ la\ chaine\ de\ caract\u00E8res\nrenvoy\u00E9e\ par\ la\ m\u00E9thode\ descriptionSorties\ pour\ d\u00E9crire\ les\ sorties\ de\ncette\ piece.\n\n@return\ \ \ \ Description\ affichable\ de\ cette\ piece\n\n
+comment4.target=String\ descriptionSorties()
+comment4.text=\nRenvoie\ une\ description\ des\ sorties\ de\ cette\ piece,\ de\ la\ forme\:\ <pre>\nSorties\:\ nord\ ouest</pre>\ Cette\ description\ est\ utilis\u00E9e\ dans\ la\ndescription\ longue\ d'une\ piece.\n\n@return\ \ \ \ Une\ description\ des\ sorties\ de\ cette\ pi\u00E8ce.\n\n
+comment5.params=direction
+comment5.target=Piece\ pieceSuivante(String)
+comment5.text=\nRenvoie\ la\ piece\ atteinte\ lorsque\ l'on\ se\ d\u00E9place\ a\ partir\ de\ cette\ piece\ndans\ la\ direction\ sp\u00E9cifi\u00E9e.\ Si\ cette\ piece\ ne\ poss\u00E8de\ aucune\ sortie\ dans\ cette\ direction,\nrenvoie\ null.\n\n@param\ \ direction\ \ La\ direction\ dans\ laquelle\ on\ souhaite\ se\ d\u00E9placer\n@return\ \ \ \ \ \ \ \ \ \ \ \ Piece\ atteinte\ lorsque\ l'on\ se\ d\u00E9place\ dans\ la\ direction\nsp\u00E9cifi\u00E9e\ ou\ null.\n\n
+numComments=6

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=AnalyseurSyntaxique()
+comment0.text=\nInitialise\ un\ nouvel\ analyseur\ syntaxique\n\n
+comment1.target=Commande\ getCommande()
+comment1.text=\nLit\ une\ ligne\ au\ terminal\ et\ tente\ de\ l'interpr\u00E9ter\ comme\ constituant\ une\ncommande\ compos\u00E9e\ de\ deux\ mots.\ La\ commande\ est\ alors\ renvoy\u00E9e\ sous\ forme\nd'une\ instance\ de\ la\ classe\ Commande.\n\n@return\ \ \ \ La\ commande\ utilisateur\ sous\ la\ forme\ d'un\ objet\ Commande\n\n
+comment2.target=void\ afficherToutesLesCommandes()
+comment2.text=\nAffiche\ la\ liste\ de\ toutes\ les\ commandes\ reconnues\ pour\ le\ jeu.\n\n
+numComments=3

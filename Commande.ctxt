@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=motCommande\ secondMot
+comment0.target=Commande(String,\ String)
+comment0.text=\nInitialise\ une\ Commande\ a\ partir\ des\ deux\ mots\ sp\u00E9cifi\u00E9s.\ <p>\n\nLe\ premier\ argument\ repr\u00E9sente\ un\ mot\ commande,\ sa\ valeur\ peut\ etre\ null\ si\nle\ mot\ commande\ ne\ correspond\ pas\ a\ une\ commande\ valide.\ Le\ second\ mot\ peut\n\u00E9galement\ etre\ null\ dans\ le\ cas\ ou\ l'utilisateur\ n'aurait\ pas\ fourni\ de\nsecond\ mot\ dans\ sa\ commande.</p>\n\n@param\ \ motCommande\ \ Le\ mot\ commande\ de\ la\ commande\ utilisateur\ ou\ null\n@param\ \ secondMot\ \ \ \ Le\ second\ mot\ de\ la\ commande\ utilisateur\ ou\ null\n\n
+comment1.target=String\ getMotCommande()
+comment1.text=\nRenvoie\ le\ mot\ commande\ (le\ premier\ mot)\ de\ cette\ Commande.\ Si\ cette\ncommande\ n'est\ pas\ une\ commande\ valide,\ la\ valeur\ renvoy\u00E9e\ est\ null.\n\n@return\ \ \ \ Le\ mot\ commande\ de\ cette\ Commande\ ou\ null\n\n
+comment2.target=String\ getSecondMot()
+comment2.text=\nRenvoie\ le\ second\ mot\ de\ cette\ Commande\ ou\ null\ si\ cette\ commande\ ne\nposs\u00E8de\ pas\ de\ second\ mot.\n\n@return\ \ \ \ le\ second\ mot\ de\ cette\ Commande\ ou\ null\n\n
+comment3.target=boolean\ estInconnue()
+comment3.text=\nTeste\ si\ cette\ commande\ est\ une\ commande\ reconnue\ par\ le\ jeu.\n\n@return\ \ \ \ true\ si\ cette\ commande\ est\ valide\ ;\ false\ sinon\n\n
+comment4.target=boolean\ aSecondMot()
+comment4.text=\nTeste\ si\ cette\ commande\ poss\u00E8de\ un\ second\ mot.\n\n@return\ \ \ \ true\ si\ cette\ commande\ poss\u00E8de\ un\ second\ mot\ ;\ false\ sinon\n\n
+numComments=5
