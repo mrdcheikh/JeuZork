@@ -19,10 +19,7 @@ import java.util.StringTokenizer;
  *  si la commande utilisateur n'est pas reconnue il renvoie un objet Commande
  *  marqué comme étant une commande inconnue.</p>
  *
- * @author     Michael Kolling
- * @author     Marc Champesme (pour la traduction francaise)
- * @version    1.0
- * @since      July 1999
+ * @author     Habiboullah Ezeeddine
  */
 
 public class AnalyseurSyntaxique {
